@@ -1,0 +1,239 @@
+
+a{
+   text-decoration: none!important;  
+}
+
+@media(min-width:994px){
+   .navbar-nav li{
+      height: 1em;
+   }
+   .nav-link{
+      padding-bottom: 0!important;
+         } 
+   .nav-link:hover{
+            border-bottom: 3px solid blue;
+           
+         }
+}
+
+
+.nav-link{
+   margin-right: 3em;  
+   box-sizing: border-box!important;
+   font-weight: 600;
+   
+} 
+
+ 
+
+/*Navbar style end*/
+.poster{
+   background-image: url('/images/poster.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 100%;
+   height:90vh;
+}
+
+.poster h1:nth-child(1){
+   color: white;
+   padding-top: .5em;
+   padding-left: .5em;
+   font-size: 5em;
+   font-weight: 200;
+}
+
+.poster h1:nth-child(2){
+   color: white;
+   padding-top: .2em;
+   padding-left: 3em;
+   font-size: 5em;
+   font-weight: 200; 
+}
+
+@media(max-width:1216px){
+   .poster h1:nth-child(1){
+      color: white;
+      padding-top: .5em;
+      padding-left: .5em;
+      font-size: 5em;
+      font-weight: 200;
+   }
+   
+   .poster h1:nth-child(2){
+      color: white;
+      padding-top: .2em;
+      padding-left: 1em;
+      font-size: 5em;
+      font-weight: 200; 
+   }
+}
+
+.poster button{
+   position: relative;
+   top: 25%;
+   left: 40%;
+   padding: .7em;
+   background-color: aqua;
+   font-weight: bold;
+   border-radius: 1.5em;
+   transition: .5s background-color;
+}
+
+/*button classes*/
+.explore_view{
+   height:0;
+   display: none;
+}
+
+
+.display{
+   height: 100%;
+   display: block;
+}
+
+.hide{
+   display: none;
+}
+
+/*our products*/
+
+.explore_view h2{
+   text-align:center;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   text-decoration: underline;
+   
+}
+
+.explore_view h3{
+   margin-top: 1em;
+   margin-bottom: .5em;
+   
+}
+
+.explore_view img{
+   max-width: 100%;
+  
+}
+
+.team{
+   max-width: 100%;
+}
+
+.contact_us{
+   text-align: center;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+.mapouter{
+  max-width: 100%;
+  margin-top: 2em;
+   
+}
+
+.container{
+   padding-bottom: 1em;
+}
+
+footer{
+   max-width: 100%;
+   background-color: grey;
+   padding: 1em;
+   color: white; 
+}
+
+footer p:last-child{
+   text-align: center;
+   padding: 1em 0 0 0;
+}
+
+.about{
+   margin-top: 1em;
+}
+
+.explore:hover{
+   color: white;
+   background-color: rgb(48, 173, 173);
+  
+}
+
+h4{
+   font-weight: 200!important;
+}
+
+@media(max-width:997px){
+   .poster h1:nth-child(1){
+      color: white;
+      padding-top: 1em;
+      padding-left: .5em;
+      font-size: 4em;
+      font-weight: 200;
+   }
+   
+   .poster h1:nth-child(2){
+      color: white;
+      padding-top: .2em;
+      padding-left: 1.5em;
+      font-size: 4em;
+      font-weight: 200; 
+   }
+}
+
+@media(max-width:997px){
+   .poster h1:nth-child(1){
+      color: white;
+      padding-top: 2em;
+      padding-left: .5em;
+      font-size: 3em;
+      font-weight: 200;
+   }
+   
+   .poster h1:nth-child(2){
+      color: white;
+      padding-top: .2em;
+      padding-left: 1.5em;
+      font-size: 3em;
+      font-weight: 200; 
+   }
+}
+
+@media(max-width:645px){
+   .poster h1:nth-child(1){
+      color: white;
+      padding-top: 2em;
+      padding-left: .5em;
+      font-size: 2em;
+      font-weight: 200;
+   }
+   
+   .poster h1:nth-child(2){
+      color: white;
+      padding-top: .2em;
+      padding-left: 1.5em;
+      font-size: 2em;
+      font-weight: 200; 
+   }
+}
+
+@media(max-width:431px){
+   .poster h1:nth-child(1){
+      color: white;
+      padding-top: 2em;
+      padding-left: .5em;
+      font-size: 2em;
+      font-weight: 200;
+   }
+   
+   .poster h1:nth-child(2){
+      color: white;
+      padding-top: .3em;
+      font-size: 2em;
+      font-weight: 200; 
+      padding-left: .5em;
+     
+   }
+}
+
+
